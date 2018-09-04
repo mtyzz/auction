@@ -5,7 +5,7 @@
 Tally-auction is a Clojure command-line application that takes a list of bids and the item on which they are bidding, and uses the given maximum bids and bid increments to determine the winning bid and bidder.
 
 ## How to use
-Tally-auction arrives in an uberjar. This program reads lines of the format "Name start-bid max-bid increment, Name start-bid max-bid increment, item-for-auction" from standard input until the end of file, then prints the result of the auction to standard out. Users with [Leiningen](https://github.com/technomancy/leiningen) installed can download the jar, open tally-auction, navigate to the root directory, and run the following command to start an auction:
+This program reads lines of the format "Name start-bid max-bid increment, Name start-bid max-bid increment, item-for-auction" from standard input until the end of file, then prints the result of the auction to standard out. Users with [Leiningen](https://github.com/technomancy/leiningen) installed can clone the repo, navigate to the root directory, and run the following command to start an auction:
 
 ```lein run <<EOF
    ;;as many of these as there are bids
@@ -15,7 +15,7 @@ Tally-auction arrives in an uberjar. This program reads lines of the format "Nam
    item-name, 
    EOF
 ```
-Users without Leiningen installed can run it from the jar using the same syntax, e.g.
+Users without Leiningen installed can run it from an uberjar using the same syntax, e.g.
 $ java -jar tally-auction-0.1.0-SNAPSHOT-standalone.jar
 Name start-bid max-bid increment,
 Name start-bid max-bid increment,
