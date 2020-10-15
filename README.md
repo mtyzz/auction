@@ -26,7 +26,6 @@ item
 From the root directory, call `lein run test`.
 
 ## Upcoming work
-Clojure is not a great way to write command-line tools. A different interface, either by an HTTP api or a clojurescript app that can store input state, would be easier to use and allow more input flexibility.
 
 I was getting some dependency errors when I tried to compile and use clojure.spec that stack overflow tend to come from some outdated deps on my machine. Had I time to sort that out, I would have liked to use spec to validate input.
  
