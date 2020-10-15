@@ -1,8 +1,8 @@
-# tally-auction
+# Auction-solver
 
 ## Overview
 
-Tally-auction is a Clojure command-line application that takes a list of bids and the item on which they are bidding, and uses the given maximum bids and bid increments to determine the winning bid and bidder.
+Auction-solver is a Clojure command-line application that takes a list of bids and the item on which they are bidding, and uses the given maximum bids and bid increments to determine the winning bid and bidder.
 
 ## How to use
 This program reads lines of the format "Name start-bid max-bid increment, Name start-bid max-bid increment, item-for-auction" from standard input until the end of file, then prints the result of the auction to standard out. Users with [Leiningen](https://github.com/technomancy/leiningen) installed can clone the repo, navigate to the root directory, and run the following command to start an auction:
